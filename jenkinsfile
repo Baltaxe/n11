@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/Baltaxe/N11Task.git'
+        git 'https://github.com/Baltaxe/n11.git'
     }
 
     stage('Run tests'){
